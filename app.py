@@ -23,8 +23,8 @@ TMDB_API_KEY = 'fd63624ffe4ce8868bd42a144141ba75'
 YOUTUBE_API_KEY = 'AIzaSyA_BB6b5s8hbDy9GGgCmSFcWgJtugTT1IM'
 
 # Load datasets
-movies_df = pd.read_csv('backend/movies.csv')
-ratings_df = pd.read_csv('backend/ratings.csv')
+movies_df = pd.read_csv('movies.csv')
+ratings_df = pd.read_csv('ratings.csv')
 
 # User model
 class User(UserMixin, db.Model):
